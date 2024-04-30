@@ -1,9 +1,9 @@
 .callout {
-	width: 400px;
-	margin: 10px;
-	border: 2px solid rgba(0,0,0,.1);
-	padding: 15px;
-	background-color: #247;
+	width: 800px;
+	margin: 15px;
+	border: 20px solid rgba(0,0,0,.1);
+	padding: 20px;
+	background-color: rgb(50, 126, 240);
 	color: #fff;
 }
 
