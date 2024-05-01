@@ -1,8 +1,8 @@
 .callout {
-	width: 800px;
+	width: 430px;
 	margin: 15px;
 	border: 15px solid rgba(11, 11, 11, 0.1);
-	padding: 20px;
+	padding: 10px;
 	background-color: rgb(110, 184, 86);
 	color: #fff;
 }
@@ -10,7 +10,7 @@
 .callout img {
 	float: right;
 	margin: 0 0 10px 15px;
-	border: 1px solid #000;
+	border: 0.5px solid #000;
 	padding: 3px;
 	background-color: #e1b2b2;
 	width: 110px;
