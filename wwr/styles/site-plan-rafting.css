@@ -1,4 +1,4 @@
-/* Importando fontes do Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&family=Montserrat&display=swap');
 
 :root {
@@ -7,6 +7,9 @@
     --accent1-color: #F18805;
     --accent2-color: #D95D39;
 
+    --heading-font: 'Roboto', sans-serif; 
+    --paragraph-font: 'Montserrat', sans-serif; 
+
     --nav-background-color: #d95d39;
     --nav-link-color: #7d4549;
     --nav-hover-link-color: #581F18;
@@ -14,14 +17,14 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--paragraph-font); 
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--heading-font); 
     color: var(--primary-color);
 }
 
