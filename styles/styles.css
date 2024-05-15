@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -14,11 +22,12 @@ h1 {
 }
 
 main img {
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -29,24 +38,102 @@ main {
     max-width: 840px;
 }
 
-aside {
+aside.box {
     width: 20rem;
+    text-align: center;
     margin: 1rem;
     border: 1px solid rgba(70, 130, 180, 0.8); /* */
     padding: 1rem;
     background-color: #eee;
-    color: #333;
+    color: #000000;
     text-align: center;
     box-shadow: 0 0 30px gray;
+    position: relative;
 }
 
-aside img {
+aside.box h2 {
+    position: absolute;
+    top: 15%; /* Move o h2 para o centro verticalmente */
+    left: 50%; /* Move o h2 para o centro horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza o h2 */
+    font-size: 1rem;
+    color: #c30505;
+    z-index: 1;
+    
+}
+
+aside.box h2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 150%;
+    background-color: rgba(255, 255, 255, 0.614); /* Faixa branca opaca */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do texto */
+  }
+
+aside.box img {
     width: 200px;
     height: auto;
 }
 
+aside.box p {
+    font-size: 0.9rem;
+}
 footer {
     margin-top: 150px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000000;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 8000%;
+    margin: auto;
+    padding: 0 20px;
+
+}
+
+.left-content {
+    flex: 1;
+    text-align: justify;
+    padding-right: 10px;
+
+    
+}
+
+.left-content h1 {
+    width: 100%;
+}
+
+.left-content p {
+    text-align: justify;
+    max-width: 100vw; /* Define o comprimento do paragrafo */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.right-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
