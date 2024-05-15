@@ -95,6 +95,9 @@ footer {
     color: #000000;
 }
 
+.box-title {   
+}
+
 .content {
     display: flex;
     justify-content: space-between;
