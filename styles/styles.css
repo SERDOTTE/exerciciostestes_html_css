@@ -1,9 +1,11 @@
+/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilos para a barra de navegação */
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -15,10 +17,12 @@ nav a {
     padding: 20px;
 }
 
+/* Estilos para o título principal */
 h1 {
     color: steelblue;
 }
 
+/* Estilos para imagens dentro do main */
 main img {
     width: 200px;
     height: auto;
@@ -28,14 +32,17 @@ main img {
     float: right;
 }
 
+/* Reset de padding para parágrafos */
 p {
     padding: 0;
 }
 
+/* Limitando a largura do main */
 main {
     max-width: 840px;
 }
 
+/* Estilos para o aside.box */
 aside.box {
     width: 20rem;
     text-align: center;
@@ -49,7 +56,8 @@ aside.box {
     position: relative;
 }
 
-aside.box h2 {
+/* Estilos para o título do aside.box */
+aside.box h2.box-title {
     position: absolute;
     top: 15%;
     left: 50%;
@@ -59,7 +67,8 @@ aside.box h2 {
     z-index: 1;
 }
 
-aside.box h2::before {
+/* Estilos para a faixa branca opaca do título */
+aside.box h2.box-title::before {
     content: '';
     position: absolute;
     top: 0;
@@ -71,21 +80,25 @@ aside.box h2::before {
     z-index: -1;
 }
 
+/* Estilos para imagens dentro do aside.box */
 aside.box img {
     width: 200px;
     height: auto;
 }
 
+/* Estilos para parágrafos dentro do aside.box */
 aside.box p {
     font-size: 0.9rem;
 }
 
+/* Estilos para o rodapé */
 footer {
     margin-top: 150px;
     border-top: 1px solid #000;
     text-align: center;
 }
 
+/* Estilos para a caixa comum */
 .box {
     margin: 1rem;
     border: 1px solid steelblue;
@@ -95,9 +108,12 @@ footer {
     color: #000000;
 }
 
-.box-title {   
+/* Estilos para listas dentro da caixa comum */
+ul.box li {
+    margin-left: 20px;
 }
 
+/* Estilos para o conteúdo principal */
 .content {
     display: flex;
     justify-content: space-between;
@@ -106,17 +122,15 @@ footer {
     padding: 0 20px;
 }
 
+/* Estilos para o conteúdo à esquerda */
 .left-content {
     flex: 1;
     text-align: justify;
     padding-right: 10px;
 }
 
+/* Estilos para parágrafos dentro do conteúdo à esquerda */
 .left-content p {
     max-width: 100vw;
     margin: 0 auto;
-}
-
-ul.box li {
-    margin-left: 20px;
 }
