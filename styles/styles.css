@@ -57,7 +57,7 @@ aside.box {
 }
 
 /* Estilos para o título do aside.box */
-aside.box h2.box-title {
+aside.box h2 {
     position: absolute;
     top: 15%;
     left: 50%;
@@ -68,7 +68,7 @@ aside.box h2.box-title {
 }
 
 /* Estilos para a faixa branca opaca do título */
-aside.box h2.box-title::before {
+aside.box h2::before {
     content: '';
     position: absolute;
     top: 0;
