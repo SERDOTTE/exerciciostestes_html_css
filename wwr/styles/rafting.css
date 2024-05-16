@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --primary-color:#0f0a0a;
+    --secondary-color:#f5efed;
+    --accent1-color: #2292a4;
+    --accent2-color: #bdbf09;
+    
+    --heading-font: Roboto, serif;
+    --heading-color:rgb(5, 5, 5);  
+    --secondary-heading-color:      #030c29;
+
+    --paragraph-font: "Patrick Hand SC", cursive;
+    --paragraph-color:black;
+
+    --nav-background-color: #222;
+    --nav-link-color: #f8f8ff;
+    --nav-hover-link-color:#ea4f4c;
+    --nav-hover-background-color: #f5f5dc;
+
+    --special-article-background-color: rgba(245, 248, 250, 0.81);
+    --general-background-color:rgb(226, 226, 238);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+}
+p{
+    font-family:  var(--paragraph-font);
+    color: var(--paragraph-color);
+}
+figcaption{
+    font-family: var(--heading-font);
+    font-size: smaller;
+}
+
+body {
+    border: 2px solid;
+    max-width: 800px;
+    padding: 20px;
+    color: var(--primary-color);
+}
+
+main{
+    background-color: var(--general-background-color);
+}
+
+main div{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+img.special{
+    position: relative;
+    margin: 20px;
+    float: right;
+    width: 90px;
+}
+
+
+main div h1{
+    display: block;
+    position:absolute;
+    top: 15px;
+    color: white;
+}
+
+main div article{
+    position: absolute;
+    top: 50px;
+    background-color:var(--special-article-background-color);
+    margin: 30px;
+}
+
+main div article p{
+    margin:20px
+}
+
+main section h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:var(--secondary-heading-color);
+}
+
+footer nav img{
+    width: 30px;
+}
+
+header img{
+    width: 120px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: center;
+    text-align: center;
+    background-color: var(--secondary-color);
+    height: 60px;
+}
+
+.paragraph-footer{
+    font-family: var(--heading-font);
+    margin-left: 160px;
+}
+.footer-nav{
+    margin-top: 3px;
+    margin-left: 10px;    
+}
+
+main section div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;   
+    background-color: rgba(139, 145, 196, 0.518);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 10px; 
+}
+
+#header1{
+    padding-top: 10px;
+    padding-left: 60px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    text-align: center;
+}
+#paragraph1{
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    text-align: left;
+}
+
+#paragraph2{
+    padding: 1px;
+    grid-column-start:4;
+    grid-column-end: 6;
+}
+
+.rafting-images h2{
+    text-align: center;
+}
+
+.rafting-images div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rafting-images img{
+    width: 100px;
+}
+
+.rafting-images figure figcaption{
+    text-align: center;
+}
