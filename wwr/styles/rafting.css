@@ -9,7 +9,7 @@
 
 :root{
 
-    --primary-color:#0f0a0a;
+    --primary-color:#0a0b0f;
     --secondary-color:#f5efed;
     --accent1-color: #2292a4;
     --accent2-color: #bdbf09;
@@ -44,7 +44,6 @@ figcaption{
 }
 
 body {
-    border: 2px solid;
     max-width: 800px;
     padding: 20px;
     color: var(--primary-color);
