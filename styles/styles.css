@@ -124,7 +124,7 @@ main img {
 .content {
     display: flex;
     justify-content: space-between;
-    max-width: 1000pix;
+    max-width: 1000px;
     margin: auto;
     padding: 0 20px;
     position: relative;
