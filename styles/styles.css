@@ -78,7 +78,7 @@ aside.box h2::before {
     z-index: -1;
 }
 
-aside.box img {
+aside img {
     width: 280px;
     height: auto;
 }
