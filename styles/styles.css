@@ -49,6 +49,7 @@ main {
     color: #000000;
 }
 
+/* aside settings */
 aside {
     width: 20rem;
     position: relative;
@@ -102,10 +103,10 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    position: absolute; /* Posiciona a imagem absolutamente */
-    top: 50%; /* Ajusta a posição verticalmente */
-    transform: translateY(-50%); /* Ajusta a posição verticalmente */
-    right: 0; /* Alinha à direita */
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    right: 0; 
     z-index: 1;
 }
 
@@ -122,8 +123,8 @@ main img {
     flex: 1;
     text-align: justify;
     position: relative;
-    z-index: 2; /* Garante que o texto fique acima da imagem */
-    margin-right: 220px; /* Margem para acomodar a largura da imagem */
+    z-index: 2; 
+    margin-right: 220px; 
 }
 
 ul.box li {
@@ -138,6 +139,6 @@ footer {
     
     text-align: center;
     padding: 20px;
-    border-top: 1px solid #000; /* Linha em cima */
-    margin-top: auto; /* Centraliza o footer */
+    border-top: 1px solid #000; 
+    margin-top: auto; 
 }
