@@ -49,7 +49,6 @@ main {
     color: #000000;
 }
 
-/* class selectos */
 aside {
     width: 20rem;
     position: relative;
@@ -108,7 +107,6 @@ main img {
     transform: translateY(-50%); 
     right: 0; 
     z-index: 1;
-    float: right;
 }
 
 .content {
