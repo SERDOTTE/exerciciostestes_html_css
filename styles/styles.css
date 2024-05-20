@@ -56,20 +56,6 @@ aside {
     grid-row: 1/2;
 }
 
-aside.box {
-    width: 20rem;
-    height: 40rem;
-    margin: 1rem;
-    border: 1px solid rgba(70, 130, 180, 0.8);
-    padding: 1rem;
-    background-color: #eee;
-    color: #000000;
-    text-align: justify;
-    box-shadow: 0 0 30px gray;
-    position: relative;
-    
-}
-
 aside.box h2 {
     position: absolute;
     top: 25%;
