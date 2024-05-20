@@ -49,7 +49,7 @@ main {
     color: #000000;
 }
 
-/* aside settings */
+/* class selectos */
 aside {
     width: 20rem;
     position: relative;
@@ -57,7 +57,7 @@ aside {
     grid-row: 1/2;
 }
 
-aside.box h2 {
+aside h2 {
     position: absolute;
     top: 25%;
     left: 50%;
