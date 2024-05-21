@@ -130,8 +130,7 @@ main section div {
 #history {
     width: 100%;
     grid-column: 2;
-    justify-self: center;
-    align-self: center;
+    padding-top: 5px;
     
 }
 
